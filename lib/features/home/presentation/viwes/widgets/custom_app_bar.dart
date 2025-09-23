@@ -14,7 +14,9 @@ class CustomAppBar extends StatelessWidget {
           Image.asset(AssetsData.logo, height: 18),
           const Spacer(),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              
+            },
             icon: const Icon(FontAwesomeIcons.magnifyingGlass, size: 24),
           ),
         ],
