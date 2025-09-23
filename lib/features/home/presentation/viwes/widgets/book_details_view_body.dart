@@ -1,12 +1,12 @@
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:bookly_app/features/home/presentation/viwes/widgets/book_rating.dart';
+import 'package:bookly_app/features/home/presentation/viwes/widgets/books_action.dart';
 import 'package:bookly_app/features/home/presentation/viwes/widgets/custom_book_deatils_app_bar.dart';
 import 'package:bookly_app/features/home/presentation/viwes/widgets/custom_book_image.dart';
 import 'package:flutter/material.dart';
 
 class BookDetailsViewBody extends StatelessWidget {
-  const BookDetailsViewBody({super.key, });
-
+  const BookDetailsViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,9 +34,12 @@ class BookDetailsViewBody extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 18),
-          BookRating(mainAxisAlignment: MainAxisAlignment.center,),
+          BookRating(mainAxisAlignment: MainAxisAlignment.center),
+          const SizedBox(height: 37),
+          const BooksAction(),
         ],
       ),
     );
   }
 }
+
