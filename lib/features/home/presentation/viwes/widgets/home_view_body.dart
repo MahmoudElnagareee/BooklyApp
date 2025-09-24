@@ -22,7 +22,7 @@ class HomeViewBody extends StatelessWidget {
               FeaturedBooksListView(),
               const SizedBox(height: 50),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 30,),
+                padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: Text('Best Seller', style: Styles.textStyle18),
               ),
               const SizedBox(height: 20),
@@ -40,4 +40,3 @@ class HomeViewBody extends StatelessWidget {
     );
   }
 }
-
