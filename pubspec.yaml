@@ -39,6 +39,7 @@ dependencies:
   go_router: ^16.2.2
   google_fonts: ^6.3.1
   path_provider: ^2.1.2
+  get_it: ^8.2.0
 
 dev_dependencies:
   equatable: ^2.0.7
