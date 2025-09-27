@@ -41,6 +41,7 @@ dependencies:
   path_provider: ^2.1.2
   get_it: ^8.2.0
   cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
 
 dev_dependencies:
   equatable: ^2.0.7
