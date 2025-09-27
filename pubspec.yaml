@@ -42,6 +42,7 @@ dependencies:
   get_it: ^8.2.0
   cached_network_image: ^3.4.1
   shimmer: ^3.0.0
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   equatable: ^2.0.7
